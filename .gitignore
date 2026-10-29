@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Production build outputs
+dist/
+build/
+frontend/dist/
+
+# Vite / Tool caches
+.vite/
+.vite-temp/
+*/.vite/
+*/.vite-temp/
+
+# Environment variables & secrets
+.env
+.env.*
+*.env
+backend/.env
+!backend/.env.example
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# System & IDE files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

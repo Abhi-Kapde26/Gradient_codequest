@@ -1,0 +1,12 @@
+{
+  "name": "gradient-codequest",
+  "version": "1.0.0",
+  "description": "Gradient CodeQuest - Game-based competitive programming tournament platform",
+  "scripts": {
+    "start:backend": "npm --prefix backend start",
+    "dev:backend": "npm --prefix backend run dev",
+    "start:frontend": "npm --prefix frontend run dev",
+    "test": "npm --prefix backend test",
+    "build:frontend": "npm --prefix frontend run build"
+  }
+}
